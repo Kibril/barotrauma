@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Castilian Spanish" nowhitespace="false" translatedname="Castellano">
+  <jobname.acolyte>Acólito</jobname.acolyte>
+  <jobdescription.acolyte>Dedicados a la Iglesia de la Vaina, los acólitos buscan guiar a los perdidos hacia el camino correcto. Ellos exponen el poder de la Vaina y muestran que solo con la comunión junto al parásito, el ser humano sobrevivirá en las aguas alienígenas de Europa.</jobdescription.acolyte>
+  <!-- Talent Trees -->
+  <talenttree.symbiosis>Simbiosis</talenttree.symbiosis>
+  <talenttree.missionary>Misionario</talenttree.missionary>
+  <talenttree.hivemind>Mente colmena</talenttree.hivemind>
+  <!-- Prerequisite Talent Names -->
+  <talentname.crusade>Cruzada</talentname.crusade>
+  <talentname.faithismyshield>La fé es mi escudo</talentname.faithismyshield>
+  <talentname.martyr>Mártil</talentname.martyr>
+  <talentname.medievalmedication>Medicina medieval</talentname.medievalmedication>
+  <talentname.powerofprayer>El poder de la oración</talentname.powerofprayer>
+  <talentname.sanctuary>Santuario</talentname.sanctuary>
+  <talentname.willinghost>Anfitrión dispuesto</talentname.willinghost>
+  <talentname.chainthebeast>Encadena la bestia</talentname.chainthebeast>
+  <talentname.dunleashthebeast>Desencadena la bestia</talentname.dunleashthebeast>
+  <talentname.freesamples>Muestras gratuitas</talentname.freesamples>
+  <talentname.herbalist>Herborista</talentname.herbalist>
+  <talentname.itsalive>¡Esta vivo!</talentname.itsalive>
+  <talentname.jekyllandhyde>Bipolar</talentname.jekyllandhyde>
+  <talentname.naturalorder>Orden natural</talentname.naturalorder>
+  <talentname.onceuponatime>Érase una vez...</talentname.onceuponatime>
+  <talentname.onceuponatime_assistant>Experiencia como asistente</talentname.onceuponatime_assistant>
+  <talentname.onceuponatime_captain>Experiencia como capitán</talentname.onceuponatime_captain>
+  <talentname.onceuponatime_doctor>Experiencia como doctor</talentname.onceuponatime_doctor>
+  <talentname.onceuponatime_engineer>Experiencia como ingeniero</talentname.onceuponatime_engineer>
+  <talentname.onceuponatime_mechanic>Experiencia como mecánico</talentname.onceuponatime_mechanic>
+  <talentname.onceuponatime_security>Experiencia como oficial de seguridad</talentname.onceuponatime_security>
+  <!-- Specialization Talent Names -->
+  <talentname.bettertogether>Juntos es mejor</talentname.bettertogether>
+  <talentname.supplication>Súplicas</talentname.supplication>
+  <talentname.geneticenhancement>Mejora genética</talentname.geneticenhancement>
+  <talentname.waterbornepathogen>Patógeno acuático</talentname.waterbornepathogen>
+  <talentname.blessed>Bendecido</talentname.blessed>
+  <talentname.cursed>Maldito</talentname.cursed>
+  <talentname.resilientgenes>Genes resilientes</talentname.resilientgenes>
+  <talentname.xbloodfeast>Banquete sangriento</talentname.xbloodfeast>
+  <talentname.spreadthefaith>Propaga la fé</talentname.spreadthefaith>
+  <talentname.communityservice>Servicio comunitario</talentname.communityservice>
+  <talentname.forcefulconversion>Conversación fuerte</talentname.forcefulconversion>
+  <talentname.generousdonation>Donación generosa</talentname.generousdonation>
+  <talentname.sacrifice>Sacrificio</talentname.sacrifice>
+  <talentname.archbishop>Arzobispo</talentname.archbishop>
+  <talentname.fanatic>Fanático</talentname.fanatic>
+  <talentname.assimilation>Asimilación</talentname.assimilation>
+  <talentname.enthrall>Cautivador</talentname.enthrall>
+  <talentname.induction>Inducción</talentname.induction>
+  <talentname.greatmindsthinkalike>Las grandes mentes piensan igual</talentname.greatmindsthinkalike>
+  <talentname.shiningexample>Ejemplar</talentname.shiningexample>
+  <talentname.overmind>Mente superior</talentname.overmind>
+  <!-- Prerequisite Talent Descriptions -->
+  <talentdescription.crusadeself>Mientras estés fuera del submarino obtienes los siguientes atributos:</talentdescription.crusadeself>
+  <talentdescription.crusadeallies>Mientras estés fuera del submarino,los aliados cercanos a tí también tendrán estos atributos.</talentdescription.crusadeallies>
+  <talentdescription.faithismyshield>Si no has sido atacado por [seconds] segundos, el siguiente ataque que sufras tendrá [powerreduction]% menos de fuerza.</talentdescription.faithismyshield>
+  <talentdescription.martyr1>Por cada [health]% de falta de salud obtendrás de manera adicional [power]% [attackpower].</talentdescription.martyr1>
+  <talentdescription.martyr2>Hasta un máximo de [powercap]% [attackpower] se puede ganar mediante esta manera.</talentdescription.martyr2>
+  <talentdescription.medievalmedication>Aplicando [item] a cualquier aliado, le sanará.</talentdescription.medievalmedication>
+  <talentdescription.naturalorder>Otorgas [amount]% más de daño con la ‖color:gui.orange‖Aguja de Vaina‖end‖ y ‖color:gui.orange‖agujas de bacalao espinoso‖end‖.</talentdescription.naturalorder>
+  <talentdescription.powerofprayer>La próxima vez que te pongas en estado de muñeco de trapo obtienes [amount] puntos de habilidad de manera aleatoria.</talentdescription.powerofprayer>
+  <talentdescription.powerofprayermission>Cuando completes una misión podrás ponerte en estado muñeco de trapo y obtener de [amount1] a [amount2] puntos de habilidad aleatorios.</talentdescription.powerofprayermission>
+  <talentdescription.huskreputationboost>Cuando completes una misión sin ninguna baja de personal, conseguirás [amount] de reputación con la ‖color:gui.orange‖Iglesia de la Vaina‖end‖.</talentdescription.huskreputationboost>
+  <talentdescription.sanctuaryself>Mientras estés dentro del submarino obtienes los siguientes atributos:</talentdescription.sanctuaryself>
+  <talentdescription.sanctuaryallies>Mientras estés dentro del submarino, los aliados cercanos a tí también tendrán estos atributos.</talentdescription.sanctuaryallies>
+  <talentdescription.slowhusk>Ralentiza la velocidad de la infección de la Vaina.</talentdescription.slowhusk>
+  <talentdescription.willinghost>Mientras tengas una cantidad igual o mayor al [amount]% de la infección de la Vaina, los infectados te ignorarán a no ser que les provoques. No necesitarás respirar oxígeno y tendras la resistencia a la presión de la Vaina.</talentdescription.willinghost>
+  <talentdescription.chainthebeast>Inflinge hasta un [cap]% más [stun] basada en como de baja es tu infección de la Vaina.</talentdescription.chainthebeast>
+  <talentdescription.dunleashthebeast>Obtienes hasta un [cap1]% [meleeatkspeed] e inflinges hasta [cap2]% más [bleeding] basada en como de alta es tu infección de la Vaina.</talentdescription.dunleashthebeast>
+  <talentdescription.gainoutputfromplants>Cuando deconstruyas una planta, tienes un [probability]% de probabilidades de duplicar el resultado.</talentdescription.gainoutputfromplants>
+  <talentdescription.freesamples>Cuando tu u otro miembro de la tripulación mata a un monstruo fuera del submarino, tienes un [probability]% de probabilidades de encontrar material genético de la Vaina en el mismo.</talentdescription.freesamples>
+  <talentdescription.freesampleseggs>Cuando termines una misión, obtienes el objeto [item].</talentdescription.freesampleseggs>
+  <talentdescription.moreoutput>Cuando fabricas [item], tienes un [percentchance]% de probabilidades de obtener el doble.</talentdescription.moreoutput>
+  <talentdescription.jekyll>Mientras tengas una cantidad igual o menor al [percent]% de la infección de la Vaina obtendrás un bonus de [medicalskillamount] a [medicalskill] y los objetos médicos que apliques serán [potency]% más potentes.</talentdescription.jekyll>
+  <talentdescription.hyde>Mientras tengas una cantidad igual o mayor al [percent]% de la infección de la Vaina obtendrás un bonus de [weaponsskillamount] a [weaponsskill] y provocarás  [bleedingamount]% más [bleeding].</talentdescription.hyde>
+  <talentdescription.Onceuponatimebase>Antes de entregarte a la Iglesia de la Vaina tu vida era muy diferente.</talentdescription.Onceuponatimebase>
+  <talentdescription.Aonceuponatimejob>Eras un [job] obteniendo lo siguiente:</talentdescription.Aonceuponatimejob>
+  <talentdescription.ANonceuponatimejob>Eras un [job] obteniendo lo siguiente:</talentdescription.ANonceuponatimejob>
+  <talentdescription.allskills>Obtienes un bonus de [skillincrease] a todas las habilidades.</talentdescription.allskills>
+  <talentdescription.speedmover>Te mueves un [amount]% más rapido cuando coges ‖color:gui.orange‖Cajas de metal‖end‖, ‖color:gui.orange‖Artefactos‖end‖, ‖color:gui.orange‖Cajas de munición‖end‖, or ‖color:gui.orange‖Cartuchos de cañón de riel‖end‖.</talentdescription.speedmover>
+  <talentdescription.extrapowertopistols>Obtienes de manera adicional un [amount]% [attackpower] con pistolas.</talentdescription.extrapowertopistols>
+  <talentdescription.downwiththeshipacolyte>Si estas en tu submarino y llega por lo menos al [flooded]% de inundación, obtienes los siguientes atributos [duration] segundos.</talentdescription.downwiththeshipacolyte>
+  <talentdescription.extrapowertohandheldranged>Obtienes de manera adicional [amount]% [attackpower] con armas a distancia.</talentdescription.extrapowertohandheldranged>
+  <talentdescription.moreaffliction>Infliges [amount]% más [affliction].</talentdescription.moreaffliction>
+  <talentdescription.lessaffliction>Infliges [amount]% menos [affliction].</talentdescription.lessaffliction>
+  <talentdescription.reductionresistanceself>Pierdes [amount]% [affliction] resistencia.</talentdescription.reductionresistanceself>
+  <talentdescription.reductionreputationgains>La reputación de tu tripulación es reducida en [amount]%.</talentdescription.reductionreputationgains>
+  <talentdescription.damagetoaffliction1>Otorgas [amount]% mas daño contra [affliction] objetivos.</talentdescription.damagetoaffliction1>
+  <talentdescription.damagetoaffliction2>Otorgas [amount]% mas daño contra objetivos que tienen [affliction].</talentdescription.damagetoaffliction2>
+  <talentdescription.damagetostun>Otorgas [amount]% mas daño contra objetivos que son ‖color:gui.orange‖Aturdido‖end‖.</talentdescription.damagetostun>
+  <!-- Specialization Talent Descriptions -->
+  <talentdescription.bettertogether>Significativamente ralentiza la velocidad de la infección de la Vaina y mientras estas infectado ganas un bonus de [skillincrease] para todas las habilidades.</talentdescription.bettertogether>
+  <talentdescription.supplicationbuff>Significativamente ralentiza la velocidad de la infección de la Vaina y mientras estas infectado ganas un bonus de [skillincrease] para todas las habilidades.</talentdescription.supplicationbuff>
+  <talentdescription.supplication>Mientras estas infectado por la Vaina los aliados cerca tuya sufren una penalización de [amount] para todas las habilidades y [amount]% [speedreduction].</talentdescription.supplication>
+  <talentdescription.supplicationitems>Cuando termines una misión sin bajas aliadas, obtienes los siguientes objetos como recompensa:</talentdescription.supplicationitems>
+  <talentdescription.geneticenhancement>Mientras estas infectado por la Vaina obtienes de manera adicional [spreadreductionamount]% [spreadreduction], [meleeatkspeed]% [matkspeed] y [movementspeed]% [speedboost].</talentdescription.geneticenhancement>
+  <talentdescription.waterbornepathogen>Mientras estas infectado por la Vaina obtienes de manera adicional [swimmingboost]% [swimmingspeed] y [flowresist]% [flow] resistencia.</talentdescription.waterbornepathogen>
+  <talentdescription.waterbornepathogenwaterbuffs>Mientras estas infectado por la Vaina y estás en el agua obtienes de manera adicional [amount]% [affliction] resistencia.</talentdescription.waterbornepathogenwaterbuffs>
+  <talentdescription.reductiontoresistanceself>Mientras estas infectado por la Vaina, reduce tu [affliction] resistencia un [amount]%.</talentdescription.reductiontoresistanceself>
+  <talentdescription.blessed>Mientras estas infectado por la Vaina obtienes de manera adicional [health]% [maximumhealth], un bonus de [amount] a [skill] y el daño normal se regenera lentamente.</talentdescription.blessed>
+  <talentdescription.cursed>Mientras estas infectado por la Vaina obtienes de manera adicional [power]% [attackpower] y un bonus de [amount] a [skill].</talentdescription.cursed>
+  <talentdescription.cursedturretcap>Este bonus tendrá un tope de [power]% [attackpower] mientas estés en una torreta.</talentdescription.cursedturretcap>
+  <talentdescription.curseddrawback>Mientras estas infectado por la Vaina, haces [amount]% más daño.</talentdescription.curseddrawback>
+  <talentdescription.resilientgenes>Por cada [health]% de salud perdida mientras estas infectado por la Vaina obtienes de manera adicional [dmgresist]% [physicaldamage] resistencia y [bleedingresist]% [bleeding] resistencia.</talentdescription.resilientgenes>
+  <talentdescription.resilientgenescap>Hasta un máximo de [cap]% [physicaldamage] resistencia y [cap]% [bleeding] resistencia se puede ganar de esta manera.</talentdescription.resilientgenescap>
+  <talentdescription.bloodfeast>Mientras estes infectado por la Vaina rápidamente se cura [bleeding] daño y provocas [bleed]% más [bleeding].</talentdescription.bloodfeast>
+  <talentdescription.medicaleffectivenessreduction>Mientras estes infectado por la Vaina, los utensilios médicos serán un [amount]% menos potentes cuando se te apliquen.</talentdescription.medicaleffectivenessreduction>
+  <talentdescription.spreadthefaith>Propaga los conocimientos de la Vaina. Los aliados cercanos a ti empezarán a obtener iluminación, obteniendo los siguientes atributos hasta [buffduration] segundos.</talentdescription.spreadthefaith>
+  <talentdescription.spreadthefaithitem>Cuando termines una misión sin bajas aliadas, obtienes el siguiente objeto [item].</talentdescription.spreadthefaithitem>
+  <talentdescription.forcefulconversion1>Cuando aplicas [item] a un aliado que no seas tú, se le aplicará [seconds] segundos de iluminación.</talentdescription.forcefulconversion1>
+  <talentdescription.forcefulconversion2>Si tu eres [talent], cuando apliques  [item] a un aliado que no seas tú, se le aplicará[seconds] segundos de los secretos de la iglesia.</talentdescription.forcefulconversion2>
+  <talentdescription.generousdonationmoney>Cuando termines al menos una misión, obtendrás de manera adicional [marks1] a [marks2] marcos.</talentdescription.generousdonationmoney>
+  <talentdescription.generousdonationitem>Cuando termines al menos una misión, obtienes una combinación de [amount] de los siguientes objetos en tu inventario:</talentdescription.generousdonationitem>
+  <talentdescription.item>[itemname]</talentdescription.item>
+  <talentdescription.damagetobleeding>Haces hasta un [cap]% más de daño contra [affliction] objetivos basados en como de alto su sangrado es.</talentdescription.damagetobleeding>
+  <talentdescription.archbishop>Como suma a otros bonus iluminadores, tu y tus aliados cercanos obtendrán los siguientes atributos hasta [buffduration] segundos.</talentdescription.archbishop>
+  <talentdescription.fanatic>Obtienes hasta [cap1]% [movementspeed] y [cap2]% [affliction] resistencia basada en como de alta esta tu psicosis.</talentdescription.fanatic>
+  <talentdescription.fanaticpsychosis>Cuando apliques [item] a tu persona, obtienes psicosis.</talentdescription.fanaticpsychosis>
+  <talentdescription.assimilation>Reduce ligeramente la velocidad de infección de la Vaina a todos los aliados, cuando das una orden a un aliado le otorgas el efecto comunión, reduciendo su tasa de infección de la Vaina.</talentdescription.assimilation>
+  <talentdescription.assimilationreminder>Hasta dos aliados pueden ser affectados por la comunión, dar una orden a un sujeto nuevo elimina el efecto al anterior.</talentdescription.assimilationreminder>
+  <talentdescription.infection>Cuando aplicas [item] a un aliado, le otorga los siguientes atributos durante [buffduration] segundos:</talentdescription.infection>
+  <talentdescription.infectionself>Cuando aplicas [item] a ti mismo, también obtienes los efectos de [talent] por [buffduration] segundos.</talentdescription.infectionself>
+  <talentdescription.infectionreminder>La duración se puede extender con múltiples dosis, hasta [buffduration] segundos.</talentdescription.infectionreminder>
+  <talentdescription.greatmindsthinkalike>Cuando obtienes un punto de habilidad, hay un [probability]% de probabilidad que los aliados no infectados por la Vaina obtengan dicho punto.</talentdescription.greatmindsthinkalike>
+  <talentdescription.greatmindsthinkalikehusked>Si estan infectados por la Vaina, tendrán un [probability]% de probabilidad de obtener dicho punto.</talentdescription.greatmindsthinkalikehusked>
+  <talentdescription.shiningexamplerepair>Cuando reparas un dispositivo totalmente, los aliados no infectados por la Vaina obtendrán de manera adicional [repair]% [repairspeed] por [buffduration] segundos.</talentdescription.shiningexamplerepair>
+  <talentdescription.shiningexampledamage>Cuando mates un monstruo, los aliados no infectados por la Vaina obtendrán de manera adicional [power]% [attackpower] por [buffduration] segundos.</talentdescription.shiningexampledamage>
+  <talentdescription.shiningexamplehusked>Si estan infectados por la Vaina, su bufo durará en cambio [buffduration] segundos.</talentdescription.shiningexamplehusked>
+  <talentdescription.overmind>Para todas las habilidades en [skillcap] o más, obtendrás de manera adicional [skillgainincrease]% [skillgain].</talentdescription.overmind>
+  <talentdescription.overmindbuffs>Mientras que tu habilidad sea [skillcap] o más, los miembros de la tripulación obtendrán las siguientes mejoras:</talentdescription.overmindbuffs>
+  <talentdescription.overmindstat>[skill]: [statamount]% [stat].</talentdescription.overmindstat>
+  <talentdescription.overmindresistance>[skill]: [resistanceamount]% [affliction] resistance.</talentdescription.overmindresistance>
+  <!-- Affliction Names -->
+  <afflictionname.crusade>Cruzada</afflictionname.crusade>
+  <afflictionname.faithshield>Protección divina</afflictionname.faithshield>
+  <afflictionname.sanctuary1>Santuario</afflictionname.sanctuary1>
+  <afflictionname.downwiththeshipacolyte>Abajo con el barco</afflictionname.downwiththeshipacolyte>
+  <afflictionname.drained>Agotado</afflictionname.drained>
+  <afflictionname.enlightenment>Iluminado</afflictionname.enlightenment>
+  <afflictionname.churchsecrets>Secretos de la iglesia</afflictionname.churchsecrets>
+  <afflictionname.communion>Comunión</afflictionname.communion>
+  <afflictionname.enthrall1>Cautivado</afflictionname.enthrall1>
+  <afflictionname.induction>Inducción</afflictionname.induction>
+  <afflictionname.shiningexamplerepair>Directiva de reparación</afflictionname.shiningexamplerepair>
+  <afflictionname.shiningexamplerepairhusked>Directiva de reparación</afflictionname.shiningexamplerepairhusked>
+  <afflictionname.shiningexampledamage>Directiva de combate</afflictionname.shiningexampledamage>
+  <afflictionname.shiningexampledamagehusked>Directiva de combate</afflictionname.shiningexampledamagehusked>
+  <afflictionname.medical100buff>Mente medica superior</afflictionname.medical100buff>
+  <afflictionname.weapons100buff>Mente armamentística superior</afflictionname.weapons100buff>
+  <afflictionname.helm100buff>Mente de timonel superior</afflictionname.helm100buff>
+  <afflictionname.mechanical100buff>Mente superior de ingeniería mecánica</afflictionname.mechanical100buff>
+  <afflictionname.electrical100buff>Mente superior de ingeniería eléctrica</afflictionname.electrical100buff>
+  <!-- Affliction Descriptions -->
+  <afflictiondescription.crusade>El sujeto está en una cruzada.</afflictiondescription.crusade>
+  <afflictiondescription.faithshield>El sujeto estas protegido por su fé.</afflictiondescription.faithshield>
+  <afflictiondescription.sanctuary1>El Sujeto se siente seguro.</afflictiondescription.sanctuary1>
+  <afflictiondescription.downwiththeshipacolyte>El sujeto se niega a abandonar el barco, hará lo que sea por devolverlo a su gloria.</afflictiondescription.downwiththeshipacolyte>
+  <afflictiondescription.drained>El sujeto se siente debil.</afflictiondescription.drained>
+  <afflictiondescription.enlightenment>El sujeto se siente iluminado.</afflictiondescription.enlightenment>
+  <afflictiondescription.churchsecrets>El sujeto ha sido dotado con una gran sabiduría.</afflictiondescription.churchsecrets>
+  <afflictiondescription.communion>El sujeto ha abrazado a la Vaina.</afflictiondescription.communion>
+  <afflictiondescription.enthrall1>El sujeto ha sido cautivado.</afflictiondescription.enthrall1>
+  <afflictiondescription.induction>El sujeto ha sido incluido en el redil..</afflictiondescription.induction>
+  <afflictiondescription.shiningexamplerepair>El sujeto tiene ansias por reparar dispositivos.</afflictiondescription.shiningexamplerepair>
+  <afflictiondescription.shiningexamplerepairhusked>El sujeto tiene ansias por reparar dispositivos.</afflictiondescription.shiningexamplerepairhusked>
+  <afflictiondescription.shiningexampledamage>El sujeto tiene ansias por matar monstruos.</afflictiondescription.shiningexampledamage>
+  <afflictiondescription.shiningexampledamagehusked>El sujeto tiene ansias por matar monstruos.</afflictiondescription.shiningexampledamagehusked>
+  <afflictiondescription.medical100buff>El sujeto ha sido dotado del poder de la Vaina.</afflictiondescription.medical100buff>
+  <afflictiondescription.weapons100buff>El sujeto ha sido dotado del poder de la Vaina.</afflictiondescription.weapons100buff>
+  <afflictiondescription.helm100buff>El sujeto ha sido dotado del poder de la Vaina.</afflictiondescription.helm100buff>
+  <afflictiondescription.mechanical100buff>El sujeto ha sido dotado del poder de la Vaina.</afflictiondescription.mechanical100buff>
+  <afflictiondescription.electrical100buff>El sujeto ha sido dotado del poder de la Vaina.</afflictiondescription.electrical100buff>
+  <!-- Stat Type Names -->
+  <stattypenames.gainoredetachspeed>Velocidad de separación de mineral</stattypenames.gainoredetachspeed>
+  <stattypenames.physicaldamage>Daño físico</stattypenames.physicaldamage>
+  <stattypenames.flow>Flujo</stattypenames.flow>
+  <stattypenames.rangedspreadreduction>Reducción de propagación</stattypenames.rangedspreadreduction>
+</infotexts>

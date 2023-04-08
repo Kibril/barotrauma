@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Sborka New" path="Mods/sborkareliz/filelist.xml" corepackage="false" gameversion="1.0.8.0">
+  <!--< Overrides />-->
+  <Item file="%ModDir%/Override/CombatOverhaul/MVest.xml" />
+  <Item file="%ModDir%/Override/CombatOverhaul/ammunition.xml" />
+  <Item file="%ModDir%/Override/CombatOverhaul/diving.xml" />
+
+  <!--< Backpacks />-->
+  <Item file="%ModDir%/Backpacks/Backpack/Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Heavy Backpack/Heavy Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Power-Backpack/Power-Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Medical Backpack/Medical Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Duffel Bag/Duffel Bag.xml" />
+  <Item file="%ModDir%/Backpacks/Xeno-Backpack/Xeno-Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Heavy Crate/Heavy Crate.xml" />
+  <Item file="%ModDir%/Backpacks/Medipack/Medipack.xml" />
+  <Item file="%ModDir%/Backpacks/Oxy-Gen. Backpack/Oxy-Gen. Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Techno-Backpack/Techno-Backpack.xml" />
+  <Item file="%ModDir%/Backpacks/Shield Backpack/Shield Backpack.xml" />
+  <Afflictions file="%ModDir%/Backpacks/Afflictions.xml" />
+  <Text file="%ModDir%/Backpacks/Localization/Russian.xml" />
+  <Text file="%ModDir%/Backpacks/Localization/English.xml" />
+  <Text file="%ModDir%/Backpacks/Localization/French.xml" />
+  <Text file="%ModDir%/Backpacks/Localization/Polish.xml" />
+  <Text file="%ModDir%/Backpacks/Localization/Brazilian Portuguese.xml" />
+
+  <Sounds file="%ModDir%/Sounds/sounds.xml" />
+
+  <!--< Acolyte />-->
+  <Talents file="%ModDir%/Acolyte/Talents1.xml" />
+  <Afflictions file="%ModDir%/Acolyte/Acolyteafflictions.xml" />
+  <Text file="%ModDir%/Acolyte/Language/English.xml" />
+  <Text file="%ModDir%/Acolyte/Language/Russian.xml" />
+  <Text file="%ModDir%/Acolyte/Language/Turkish.xml" />
+  <Text file="%ModDir%/Acolyte/Language/Polish.xml" />
+  <Text file="%ModDir%/Acolyte/Language/CastilianSpanish.xml" />
+  <Text file="%ModDir%/Acolyte/Language/SimplifiedChinese.xml" />
+</contentpackage>

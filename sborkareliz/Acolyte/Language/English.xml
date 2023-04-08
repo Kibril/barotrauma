@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <jobname.acolyte>Acolyte</jobname.acolyte>
+  <jobdescription.acolyte>Devoted to the church of the husk, acolytes seek to guide the lost down the rightous path. They put the power of the husk on full display and show that only through communion with the husk can we surive the alien waters of Europa.</jobdescription.acolyte>
+  <!-- Talent Trees -->
+  <talenttree.symbiosis>Symbiosis</talenttree.symbiosis>
+  <talenttree.missionary>Missionary</talenttree.missionary>
+  <talenttree.hivemind>Hivemind</talenttree.hivemind>
+  <!-- Prerequisite Talent Names -->
+  <talentname.crusade>Crusade</talentname.crusade>
+  <talentname.faithismyshield>Faith Is My Shield</talentname.faithismyshield>
+  <talentname.martyr>Martyr</talentname.martyr>
+  <talentname.medievalmedication>Medieval Medication</talentname.medievalmedication>
+  <talentname.powerofprayer>Power of Prayer</talentname.powerofprayer>
+  <talentname.sanctuary>Sanctuary</talentname.sanctuary>
+  <talentname.willinghost>Willing Host</talentname.willinghost>
+  <talentname.chainthebeast>Chain the Beast</talentname.chainthebeast>
+  <talentname.dunleashthebeast>Unleash the Beast</talentname.dunleashthebeast>
+  <talentname.freesamples>Free Samples</talentname.freesamples>
+  <talentname.herbalist>Herbalist</talentname.herbalist>
+  <talentname.itsalive>It's Alive!</talentname.itsalive>
+  <talentname.jekyllandhyde>Jekyll and Hyde</talentname.jekyllandhyde>
+  <talentname.naturalorder>Natural Order</talentname.naturalorder>
+  <talentname.onceuponatime>Once Upon a Time...</talentname.onceuponatime>
+  <talentname.onceuponatime_assistant>Assistant Experience</talentname.onceuponatime_assistant>
+  <talentname.onceuponatime_captain>Captain Experience</talentname.onceuponatime_captain>
+  <talentname.onceuponatime_doctor>Medical Doctor Experience</talentname.onceuponatime_doctor>
+  <talentname.onceuponatime_engineer>Engineer Experience</talentname.onceuponatime_engineer>
+  <talentname.onceuponatime_mechanic>Mechanic Experience</talentname.onceuponatime_mechanic>
+  <talentname.onceuponatime_security>Security Officer Experience</talentname.onceuponatime_security>
+  <!-- Specialization Talent Names -->
+  <talentname.bettertogether>Better Together</talentname.bettertogether>
+  <talentname.supplication>Supplication</talentname.supplication>
+  <talentname.geneticenhancement>Genetic Enhancement</talentname.geneticenhancement>
+  <talentname.waterbornepathogen>Waterborne Pathogen</talentname.waterbornepathogen>
+  <talentname.blessed>Blessed</talentname.blessed>
+  <talentname.cursed>Cursed</talentname.cursed>
+  <talentname.resilientgenes>Resilient Genes</talentname.resilientgenes>
+  <talentname.xbloodfeast>Blood Feast</talentname.xbloodfeast>
+  <talentname.spreadthefaith>Spread The Faith</talentname.spreadthefaith>
+  <talentname.communityservice>Community Service</talentname.communityservice>
+  <talentname.forcefulconversion>Forceful Conversion</talentname.forcefulconversion>
+  <talentname.generousdonation>Generous Donation</talentname.generousdonation>
+  <talentname.sacrifice>Sacrifice</talentname.sacrifice>
+  <talentname.archbishop>Archbishop</talentname.archbishop>
+  <talentname.fanatic>Fanatic</talentname.fanatic>
+  <talentname.assimilation>Assimilation</talentname.assimilation>
+  <talentname.enthrall>Enthrall</talentname.enthrall>
+  <talentname.induction>Induction</talentname.induction>
+  <talentname.greatmindsthinkalike>Great Minds Think Alike</talentname.greatmindsthinkalike>
+  <talentname.shiningexample>Shining Example</talentname.shiningexample>
+  <talentname.overmind>Overmind</talentname.overmind>
+  <!-- Prerequisite Talent Descriptions -->
+  <talentdescription.crusadeself>As long as you are outside your sub gain the following attributes:</talentdescription.crusadeself>
+  <talentdescription.crusadeallies>As long as you are outside your sub, allies that are near you also gain these attributes.</talentdescription.crusadeallies>
+  <talentdescription.faithismyshield>If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power.</talentdescription.faithismyshield>
+  <talentdescription.martyr1>For every [health]% missing health gain an additional [power]% [attackpower].</talentdescription.martyr1>
+  <talentdescription.martyr2>Up to a maximum of [powercap]% [attackpower] can be gained this way.</talentdescription.martyr2>
+  <talentdescription.medievalmedication>Applying [item] to an ally will now heal them.</talentdescription.medievalmedication>
+  <talentdescription.naturalorder>Deal [amount]% more damage with ‖color:gui.orange‖Husk Stingers‖end‖ and ‖color:gui.orange‖Spineling Spikes‖end‖.</talentdescription.naturalorder>
+  <talentdescription.powerofprayer>The next time you ragdoll, gain [amount] random skill points.</talentdescription.powerofprayer>
+  <talentdescription.powerofprayermission>Whenever you complete a mission, you can ragdoll to gain [amount1] to [amount2] random skill points.</talentdescription.powerofprayermission>
+  <talentdescription.huskreputationboost>Whenever you complete a mission without a crewmember dying, gain [amount] reputation with the ‖color:gui.orange‖Church of Husk‖end‖.</talentdescription.huskreputationboost>
+  <talentdescription.sanctuaryself>As long as you are inside your sub gain the following attributes:</talentdescription.sanctuaryself>
+  <talentdescription.sanctuaryallies>As long as you are inside your sub, allies in an area around you also gain these attributes.</talentdescription.sanctuaryallies>
+  <talentdescription.slowhusk>Slows the rate of husk infection.</talentdescription.slowhusk>
+  <talentdescription.willinghost>While you are at or above [amount]% husk infection, husks will ignore you unless provoked, you won't need to breathe oxygen and you will have husk pressure resistance.</talentdescription.willinghost>
+  <talentdescription.chainthebeast>Inflict up to [cap]% more [stun] based on how low your husk infection is.</talentdescription.chainthebeast>
+  <talentdescription.dunleashthebeast>Gain up to [cap1]% [meleeatkspeed] and inflict up to [cap2]% more [bleeding] based on how high your husk infection is.</talentdescription.dunleashthebeast>
+  <talentdescription.gainoutputfromplants>Whenever you deconstruct a plant, you have a [probability]% chance to gain double the output.</talentdescription.gainoutputfromplants>
+  <talentdescription.freesamples>When you or another crewmember kills a monster while outside your submarine, you have a [probability]% chance of finding a husk genetic material on it.</talentdescription.freesamples>
+  <talentdescription.freesampleseggs>Whenever you finish at least one mission, gain the item [item].</talentdescription.freesampleseggs>
+  <talentdescription.moreoutput>Whenever you craft [item], you have a [percentchance]% chance to gain double the output.</talentdescription.moreoutput>
+  <talentdescription.jekyll>While you are at or below [percent]% husk infection gain a bonus of [medicalskillamount] to [medicalskill] and medical items you apply are [potency]% more potent.</talentdescription.jekyll>
+  <talentdescription.hyde>While you are at or above [percent]% husk infection gain a bonus of [weaponsskillamount] to [weaponsskill] and you inflict [bleedingamount]% more [bleeding].</talentdescription.hyde>
+  <talentdescription.Onceuponatimebase>Before you devoted your life to the church of husk your life was very different.</talentdescription.Onceuponatimebase>
+  <talentdescription.Aonceuponatimejob>You used to be a [job] and gain the following:</talentdescription.Aonceuponatimejob>
+  <talentdescription.ANonceuponatimejob>You used to be an [job] and gain the following:</talentdescription.ANonceuponatimejob>
+  <talentdescription.allskills>Gain a bonus of [skillincrease] to all skills.</talentdescription.allskills>
+  <talentdescription.speedmover>You move [amount]% faster when carrying ‖color:gui.orange‖Metal Crates‖end‖, ‖color:gui.orange‖Artifacts‖end‖, ‖color:gui.orange‖Ammo Boxes‖end‖, or ‖color:gui.orange‖Railgun Shells‖end‖.</talentdescription.speedmover>
+  <talentdescription.extrapowertopistols>Gain an additional [amount]% [attackpower] with pistols.</talentdescription.extrapowertopistols>
+  <talentdescription.downwiththeshipacolyte>If you are on your submarine and it becomes at least [flooded]% flooded, gain the following attributes for [duration] seconds.</talentdescription.downwiththeshipacolyte>
+  <talentdescription.extrapowertohandheldranged>Gain an additional [amount]% [attackpower] with hand held ranged weapons.</talentdescription.extrapowertohandheldranged>
+  <talentdescription.moreaffliction>Inflict [amount]% more [affliction].</talentdescription.moreaffliction>
+  <talentdescription.lessaffliction>Inflict [amount]% less [affliction].</talentdescription.lessaffliction>
+  <talentdescription.reductionresistanceself>Lose [amount]% [affliction] resistance.</talentdescription.reductionresistanceself>
+  <talentdescription.reductionreputationgains>Your crew's reputation gains are reduced by [amount]%.</talentdescription.reductionreputationgains>
+  <talentdescription.damagetoaffliction1>Deal [amount]% more damage against [affliction] targets.</talentdescription.damagetoaffliction1>
+  <talentdescription.damagetoaffliction2>Deal [amount]% more damage against targets that have [affliction].</talentdescription.damagetoaffliction2>
+  <talentdescription.damagetostun>Deal [amount]% more damage against targets that are ‖color:gui.orange‖Stunned‖end‖.</talentdescription.damagetostun>
+  <!-- Specialization Talent Descriptions -->
+  <talentdescription.bettertogether>Significantly slows the rate of husk infection and while infected by the husk gain a bonus of [skillincrease] to all skills.</talentdescription.bettertogether>
+  <talentdescription.supplicationbuff>Significantly slows the rate of husk infection and while infected by the husk gain a bonus of [skillincrease] to all skills.</talentdescription.supplicationbuff>
+  <talentdescription.supplication>While you are infected by the husk, allies near you suffer a reduction of [amount] to all skills and [amount]% [speedreduction].</talentdescription.supplication>
+  <talentdescription.supplicationitems>Whenever you finish a mission without a crewmember dying, gain the following items as an additional reward:</talentdescription.supplicationitems>
+  <talentdescription.geneticenhancement>While you are infected by the husk gain an additional [spreadreductionamount]% [spreadreduction], [meleeatkspeed]% [matkspeed] and [movementspeed]% [speedboost].</talentdescription.geneticenhancement>
+  <talentdescription.waterbornepathogen>While you are infected by the husk gain an additional [swimmingboost]% [swimmingspeed] and [flowresist]% [flow] resistance.</talentdescription.waterbornepathogen>
+  <talentdescription.waterbornepathogenwaterbuffs>While you are infected by the husk and are in water gain an additional [amount]% [affliction] resistance.</talentdescription.waterbornepathogenwaterbuffs>
+  <talentdescription.reductiontoresistanceself>While you are infected by the husk, reduce your [affliction] resistance by [amount]%.</talentdescription.reductiontoresistanceself>
+  <talentdescription.blessed>While you are infected by the husk gain an additional [health]% [maximumhealth], a bonus of [amount] to [skill] and slowly heal normal damage.</talentdescription.blessed>
+  <talentdescription.cursed>While you are infected by the husk gain an additional [power]% [attackpower] and a bonus of [amount] to [skill].</talentdescription.cursed>
+  <talentdescription.cursedturretcap>This bonus is capped at [power]% [attackpower] while you are on a turret.</talentdescription.cursedturretcap>
+  <talentdescription.curseddrawback>While you are infected by the husk, take [amount]% more damage.</talentdescription.curseddrawback>
+  <talentdescription.resilientgenes>For every [health]% missing health while you are infected by the husk gain an additional [dmgresist]% [physicaldamage] resistance and [bleedingresist]% [bleeding] resistance.</talentdescription.resilientgenes>
+  <talentdescription.resilientgenescap>Up to a maximum of [cap]% [physicaldamage] resistance and [cap]% [bleeding] resistance can be gained this way.</talentdescription.resilientgenescap>
+  <talentdescription.bloodfeast>While you are infected by the husk rapidly heal [bleeding] damage and inflict [bleed]% more [bleeding].</talentdescription.bloodfeast>
+  <talentdescription.medicaleffectivenessreduction>While you are infected by the husk, medical items are [amount]% less potent when applied to you.</talentdescription.medicaleffectivenessreduction>
+  <talentdescription.spreadthefaith>Spread the teachings of the husk. Allies that are near you will begin attaining enlightenment, gaining the following attributes for up to [buffduration] seconds.</talentdescription.spreadthefaith>
+  <talentdescription.spreadthefaithitem>Whenever you finish a mission without a crewmember dying, gain the item [item].</talentdescription.spreadthefaithitem>
+  <talentdescription.forcefulconversion1>Whenever you apply [item] to an ally that is not yourself, apply [seconds] seconds of enlightenment.</talentdescription.forcefulconversion1>
+  <talentdescription.forcefulconversion2>If you have [talent], whenever you apply [item] to an ally that is not yourself, apply [seconds] seconds of church secrets.</talentdescription.forcefulconversion2>
+  <talentdescription.generousdonationmoney>Whenever you finish at least one mission, gain an additional [marks1] to [marks2] marks.</talentdescription.generousdonationmoney>
+  <talentdescription.generousdonationitem>Whenever you finish at least one mission, gain a combination of [amount] of the following items in your inventory:</talentdescription.generousdonationitem>
+  <talentdescription.item>[itemname]</talentdescription.item>
+  <talentdescription.damagetobleeding>Deal up to [cap]% more damage against [affliction] targets based on how high their bleeding is.</talentdescription.damagetobleeding>
+  <talentdescription.archbishop>In addition to other enlightenment bonuses, you and allies that are near you also gain the following attributes for up to [buffduration] seconds.</talentdescription.archbishop>
+  <talentdescription.fanatic>Gain up to [cap1]% [movementspeed] and [cap2]% [affliction] resistance based on how high your psychosis is.</talentdescription.fanatic>
+  <talentdescription.fanaticpsychosis>Whenever you apply [item] to yourself, gain psychosis.</talentdescription.fanaticpsychosis>
+  <talentdescription.assimilation>Slightly slows the rate of husk infection for all allies, whenever you give an order to another character, give Communion to that character, further slowing their rate of husk infection.</talentdescription.assimilation>
+  <talentdescription.assimilationreminder>Up to two allies can be affected by Communion, giving an order to a new character removes the effect from the last character.</talentdescription.assimilationreminder>
+  <talentdescription.infection>Whenever you apply [item] to a friendly character, give them the following attributes for [buffduration] seconds:</talentdescription.infection>
+  <talentdescription.infectionself>Whenever you apply [item] to yourself, also gain the effects from [talent] for [buffduration] seconds.</talentdescription.infectionself>
+  <talentdescription.infectionreminder>Duration can be extended with multiple doses, up to [buffduration] seconds.</talentdescription.infectionreminder>
+  <talentdescription.greatmindsthinkalike>Whenever you gain a skill point, there is a [probability]% chance that allies not infected by the husk will also gain a point in that skill.</talentdescription.greatmindsthinkalike>
+  <talentdescription.greatmindsthinkalikehusked>If they are infected by the husk, they will have a [probability]% chance to also gain a point in that skill instead.</talentdescription.greatmindsthinkalikehusked>
+  <talentdescription.shiningexamplerepair>Whenever you fully repair a device, allies not infected by the husk gain an additional [repair]% [repairspeed] for [buffduration] seconds.</talentdescription.shiningexamplerepair>
+  <talentdescription.shiningexampledamage>Whenever you kill a monster, allies not infected by the husk gain an additional [power]% [attackpower] for [buffduration] seconds.</talentdescription.shiningexampledamage>
+  <talentdescription.shiningexamplehusked>If they are infected by the husk, the buff will last for [buffduration] seconds instead.</talentdescription.shiningexamplehusked>
+  <talentdescription.overmind>For every skill at [skillcap] or higher, gain an additional [skillgainincrease]% [skillgain].</talentdescription.overmind>
+  <talentdescription.overmindbuffs>As long as your skill is [skillcap] or higher, give the following buffs to all crewmembers:</talentdescription.overmindbuffs>
+  <talentdescription.overmindstat>[skill]: [statamount]% [stat].</talentdescription.overmindstat>
+  <talentdescription.overmindresistance>[skill]: [resistanceamount]% [affliction] resistance.</talentdescription.overmindresistance>
+  <!-- Affliction Names -->
+  <afflictionname.crusade>Crusade</afflictionname.crusade>
+  <afflictionname.faithshield>Divine Protection</afflictionname.faithshield>
+  <afflictionname.sanctuary1>Sanctuary</afflictionname.sanctuary1>
+  <afflictionname.downwiththeshipacolyte>Down with the Ship</afflictionname.downwiththeshipacolyte>
+  <afflictionname.drained>Drained</afflictionname.drained>
+  <afflictionname.enlightenment>Enlightenment</afflictionname.enlightenment>
+  <afflictionname.churchsecrets>Church Secrets</afflictionname.churchsecrets>
+  <afflictionname.communion>Communion</afflictionname.communion>
+  <afflictionname.enthrall1>Enthrall</afflictionname.enthrall1>
+  <afflictionname.induction>Induction</afflictionname.induction>
+  <afflictionname.shiningexamplerepair>Repair Directive</afflictionname.shiningexamplerepair>
+  <afflictionname.shiningexamplerepairhusked>Repair Directive</afflictionname.shiningexamplerepairhusked>
+  <afflictionname.shiningexampledamage>Combat Directive</afflictionname.shiningexampledamage>
+  <afflictionname.shiningexampledamagehusked>Combat Directive</afflictionname.shiningexampledamagehusked>
+  <afflictionname.medical100buff>Medical Overmind</afflictionname.medical100buff>
+  <afflictionname.weapons100buff>Weapons Overmind</afflictionname.weapons100buff>
+  <afflictionname.helm100buff>Helm Overmind</afflictionname.helm100buff>
+  <afflictionname.mechanical100buff>Mechanical Engineering Overmind</afflictionname.mechanical100buff>
+  <afflictionname.electrical100buff>Electrical Engineering Overmind</afflictionname.electrical100buff>
+  <!-- Affliction Descriptions -->
+  <afflictiondescription.crusade>The subject is on a crusade.</afflictiondescription.crusade>
+  <afflictiondescription.faithshield>The subject is protected by their faith.</afflictiondescription.faithshield>
+  <afflictiondescription.sanctuary1>The subject feels safe.</afflictiondescription.sanctuary1>
+  <afflictiondescription.downwiththeshipacolyte>The subject refuses to abandon ship, and will do anything to restore it to its former glory.</afflictiondescription.downwiththeshipacolyte>
+  <afflictiondescription.drained>The subject feels weak.</afflictiondescription.drained>
+  <afflictiondescription.enlightenment>The subject feels enlightened.</afflictiondescription.enlightenment>
+  <afflictiondescription.churchsecrets>The subject has been gifted great knowledge.</afflictiondescription.churchsecrets>
+  <afflictiondescription.communion>The subject has embraced the husk.</afflictiondescription.communion>
+  <afflictiondescription.enthrall1>The subject has been enthralled.</afflictiondescription.enthrall1>
+  <afflictiondescription.induction>The subject has been inducted into the fold.</afflictiondescription.induction>
+  <afflictiondescription.shiningexamplerepair>The subject has the urge to repair devices.</afflictiondescription.shiningexamplerepair>
+  <afflictiondescription.shiningexamplerepairhusked>The subject has the urge to repair devices.</afflictiondescription.shiningexamplerepairhusked>
+  <afflictiondescription.shiningexampledamage>The subject has the urge to fight monsters.</afflictiondescription.shiningexampledamage>
+  <afflictiondescription.shiningexampledamagehusked>The subject has the urge to fight monsters.</afflictiondescription.shiningexampledamagehusked>
+  <afflictiondescription.medical100buff>The subject has been gifted power by the husk.</afflictiondescription.medical100buff>
+  <afflictiondescription.weapons100buff>The subject has been gifted power by the husk.</afflictiondescription.weapons100buff>
+  <afflictiondescription.helm100buff>The subject has been gifted power by the husk.</afflictiondescription.helm100buff>
+  <afflictiondescription.mechanical100buff>The subject has been gifted power by the husk.</afflictiondescription.mechanical100buff>
+  <afflictiondescription.electrical100buff>The subject has been gifted power by the husk.</afflictiondescription.electrical100buff>
+  <!-- Stat Type Names -->
+  <stattypenames.gainoredetachspeed>Ore Detach Speed</stattypenames.gainoredetachspeed>
+  <stattypenames.physicaldamage>Physical Damage</stattypenames.physicaldamage>
+  <stattypenames.flow>Flow</stattypenames.flow>
+  <stattypenames.rangedspreadreduction>Spread Reduction</stattypenames.rangedspreadreduction>
+</infotexts>
