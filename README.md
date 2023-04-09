@@ -7,7 +7,7 @@
 Быть подписанным на https://steamcommunity.com/sharedfiles/filedetails/?id=2959600619.
 
 Шаг 3.
-Скачать файлы с данного репозитория и разархивировать по пути "steamapps\common\Barotrauma\LocalMods".
+Скачать файлы с данного репозитория и разархивировать в папку "steamapps\common\Barotrauma\LocalMods"(за исключением modpack.xml).
 
 Шаг 4.
 Скопировать файл "modpack.xml" из репозитория в папку "steamapps\common\Barotrauma\ModLists".
