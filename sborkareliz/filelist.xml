@@ -16,4 +16,7 @@
   <Text file="%ModDir%/Acolyte/Language/Polish.xml" />
   <Text file="%ModDir%/Acolyte/Language/CastilianSpanish.xml" />
   <Text file="%ModDir%/Acolyte/Language/SimplifiedChinese.xml" />
+
+  <!--< Diver />-->
+  <Talents file="%ModDir%/Diver/TalentsDiver.xml" />
 </contentpackage>
