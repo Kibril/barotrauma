@@ -97,7 +97,7 @@
     </Job>
   </Override>
   <Override>
-    <Job identifier="securityofficer" maxnumber="15" minkarma="40" uicolor="0.57,0.48,0.43" vitalitymodifier="10" pricemultiplier="1.15" idlebehavior="Patrol">
+    <Job identifier="securityofficer" maxnumber="15" minkarma="40" uicolor="0.57,0.48,0.43" vitalitymodifier="15" pricemultiplier="1.15" idlebehavior="Patrol">
       <Jobicon>
         <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
       </Jobicon>
