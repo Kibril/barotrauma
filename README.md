@@ -1,5 +1,4 @@
-# barotrauma
-custom modpack fixes
+# Barotrauma
 
 Шаг 1.
 Иметь баротравму.
