@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mods name="modpack">
+  <Vanilla />
+  <Workshop name="Lua For Barotrauma" id="2559634234" />
+  <Workshop name="Cs For Barotrauma" id="2795927223" />
+  <Workshop name="Performance Fix" id="2701251094" />
+  <Local name="Neurotrauma Remake" />
+  <Workshop name="Neurotrauma Cybernetics" id="2788543375" />
+  <Workshop name="BetterHealthUI" id="2807158602" />
+  <Workshop name="Настоящий сонар" id="2936760984" />
+  <Workshop name="Balalaika" id="2101436058" />
+  <Workshop name="DynamicEuropa" id="2532991202" />
+  <Workshop name="Dynamic Europa RU" id="2914269148" />
+  <Workshop name="New Wrecks For Barotrauma (With sellable wrecks)" id="2184257427" />
+  <Workshop name="Shipwrecks Extended" id="2095211492" />
+  <Workshop name="Meaningful Upgrades (Fork)" id="2945425748" />
+  <Workshop name="Неизвестные артефакты [Расширение артефактов]" id="2346381030" />
+  <Workshop name="CatGene" id="2664456459" />
+  <Workshop name="Acolyte Job" id="2870519815" />
+  <Workshop name="The Diver Job" id="2920304251" />
+  <Local name="Backpacks Remake" />
+  <Workshop name="Geneticombat - НОВЫЙ ГЕН РАПТОРА" id="2958481561" />
+  <Workshop name="Beacons Extended" id="2389600483" />
+  <Workshop name="Hazardous Reactors" id="2547888957" />
+  <Local name="Combat Overhaul Redux Remake (CORR)" />
+  <Local name="Sborka New" />
+  <Local name="[VH] The Iroh Н1" />
+</mods>
