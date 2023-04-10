@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <mods name="modpack">
   <Vanilla />
-  <Workshop name="Lua For Barotrauma" id="2559634234" />
-  <Workshop name="Cs For Barotrauma" id="2795927223" />
   <Workshop name="Performance Fix" id="2701251094" />
+  <Local name="Sborka New" />
   <Local name="Neurotrauma Remake" />
+  <Workshop name="Hazardous Reactors" id="2547888957" />
   <Workshop name="Neurotrauma Cybernetics" id="2788543375" />
   <Workshop name="BetterHealthUI" id="2807158602" />
   <Workshop name="Настоящий сонар" id="2936760984" />
@@ -21,8 +21,8 @@
   <Local name="Backpacks Remake" />
   <Workshop name="Geneticombat - НОВЫЙ ГЕН РАПТОРА" id="2958481561" />
   <Workshop name="Beacons Extended" id="2389600483" />
-  <Workshop name="Hazardous Reactors" id="2547888957" />
   <Local name="Combat Overhaul Redux Remake (CORR)" />
-  <Local name="Sborka New" />
   <Local name="[VH] The Iroh Н1" />
+  <Workshop name="Cs For Barotrauma" id="2795927223" />
+  <Workshop name="Lua For Barotrauma" id="2559634234" />
 </mods>
