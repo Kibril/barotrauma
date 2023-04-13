@@ -35,7 +35,7 @@
         <SlotIcon slotindex="4" texture="%ModDir%/Icons/Toolbox.png" origin="0.5,0.5" />
         <SlotIcon slotindex="5" texture="%ModDir%/Icons/Toolbox.png" origin="0.5,0.5" />
         <SubContainer capacity="3" maxstacksize="4">
-          <Containable items="crate,deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" excludeditems="backpack,cargoscooter" />
+          <Containable items="crate,deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox,shockemmiter,flakcannonammoboxstun,flakcannonammoboxchemical,flakcannonammoboxsolid,chaingunammoboxstabilised,,dmindammobox,piercinglaserbox,chemicalammobox,incendiaryammobox,chaingunammobox_depletedfuel,scatterammobox_coilgun,pulselaserminingammobox,unstablelaserbox,pulselaserdischargeammobox,chaingunammoboxexplosive,chaingunammoboxscatter,fulguriumammobox,pulselaserweldingammobox,chaingunammoboxdementonite,coilgunammoboxflak,coilgunammoboxpiercing_capped,emprailgunshell,sulprailgunshell,apherailgunshell,railgun_cartridge_shell,railgun_cartridge_pellet,railgunshell_chitin,railgunshell-pellet_сhitin,railgun_сhitin_pellet" excludeditems="backpack,cargoscooter" />
         </SubContainer>
         <SubContainer capacity="3" maxstacksize="1">
           <Containable items="toolbox,toolbelt,ammopack,medipack" excludeditems="backpack" />
