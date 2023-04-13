@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Item name="" identifier="techno-backpack" category="Equipment" tags="mediumitem,backpack" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.55" impactsoundtag="impact_soft" description="">
-    <Price baseprice="1200">
-      <Price locationtype="outpost" multiplier="1" minavailable="0" />
-      <Price locationtype="city" multiplier="0.9" minavailable="1" />
-      <Price locationtype="research" multiplier="1.25" minavailable="2" />
-      <Price locationtype="military" multiplier="1.25" minavailable="1" />
-      <Price locationtype="mine" multiplier="1.25" minavailable="0" />
+    <Price baseprice="32000">
+      <Price locationtype="research" multiplier="1.25" minavailable="0" />
+      <Price locationtype="military" multiplier="1.25" minavailable="0" />
     </Price>
     <Deconstruct time="60">
       <Item identifier="power-backpack" />
