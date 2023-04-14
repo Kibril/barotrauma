@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Item name="" identifier="shieldbackpack" category="Equipment" tags="mediumitem,backpack" scale="0.51" fireproof="true" waterproof="true" description="" impactsoundtag="impact_metal_light">
-    <Price baseprice="5500">
-      <Price locationtype="outpost" multiplier="2" minavailable="0" />
-      <Price locationtype="city" multiplier="1.5" minavailable="1" />
-      <Price locationtype="research" multiplier="1.25" minavailable="1" />
-      <Price locationtype="military" multiplier="0.9" minavailable="1" />
-      <Price locationtype="mine" multiplier="3" minavailable="0" />
+    <Price baseprice="1500">
+      <Price locationtype="outpost" multiplier="3" minavailable="0" />
+      <Price locationtype="city" multiplier="2.5" minavailable="1" />
+      <Price locationtype="research" multiplier="2.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.9" minavailable="1" />
+      <Price locationtype="mine" multiplier="4" minavailable="0" />
     </Price>
     <Deconstruct time="30">
       <Item identifier="power-backpack" />
