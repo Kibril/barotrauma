@@ -8,6 +8,10 @@
     <exostep file="%ModDir%/Sounds/exostep2.ogg" range="500" volume="0.55" />
     <exostep file="%ModDir%/Sounds/exostep3.ogg" range="500" volume="0.55" />
     <exostep file="%ModDir%/Sounds/exostep4.ogg" range="500" volume="0.55" />
+    <roflstep file="%ModDir%/Sounds/pipe1.ogg" range="500" volume="3.55" />
+    <roflstep file="%ModDir%/Sounds/pipe2.ogg" range="500" volume="3.55" />
+    <roflstep file="%ModDir%/Sounds/pipe3.ogg" range="500" volume="3.55" />
+    <roflstep file="%ModDir%/Sounds/pipe4.ogg" range="500" volume="3.55" />
   </Override>
   <magimpact file="%ModDir%/Sounds/magimpact1.ogg" range="500" volume="1" />
   <magimpact file="%ModDir%/Sounds/magimpact2.ogg" range="500" volume="1" />

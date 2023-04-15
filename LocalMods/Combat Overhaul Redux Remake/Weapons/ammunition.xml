@@ -21,7 +21,7 @@
         <Affliction identifier="stun" strength="0.01" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="45" />
           <Affliction identifier="radslow" strength="20" />
@@ -87,7 +87,7 @@
         <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="65" />
           <Affliction identifier="radslow" strength="20" />
@@ -118,7 +118,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="60" />
           <Affliction identifier="radslow" strength="20" />
@@ -164,7 +164,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="70" />
           <Affliction identifier="radslow" strength="20" />
@@ -221,7 +221,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="42" />
           <Affliction identifier="radslow" strength="20" />
@@ -260,7 +260,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="80" />
           <Affliction identifier="radslow" strength="20" />
@@ -302,7 +302,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="55" />
           <Affliction identifier="radslow" strength="20" />
@@ -343,7 +343,7 @@
         <Affliction identifier="stun" strength="0.1" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="50" />
           <Affliction identifier="radslow" strength="20" />
@@ -395,7 +395,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="20" />
@@ -442,7 +442,7 @@
         <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="10" />
@@ -495,7 +495,7 @@
         <Affliction identifier="stun" strength="0.2" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="55" />
           <Affliction identifier="radslow" strength="20" />
@@ -554,7 +554,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="20" />
@@ -607,7 +607,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="10" />
@@ -658,7 +658,7 @@
         <Affliction identifier="stun" strength="0.1" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="60" />
           <Affliction identifier="radslow" strength="20" />
@@ -725,7 +725,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="20" />
@@ -976,7 +976,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="45" />
           <Affliction identifier="radslow" strength="15" />
@@ -1078,7 +1078,7 @@
         <Affliction identifier="stun" strength="0.02" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="80" />
           <Affliction identifier="radslow" strength="20" />
@@ -1142,7 +1142,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="80" />
           <Affliction identifier="radslow" strength="20" />
@@ -1431,7 +1431,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="45" />
           <Affliction identifier="radslow" strength="20" />
@@ -1551,7 +1551,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="38_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="38_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist_icons.png" sourcerect="614,827,64,64" origin="0.5,0.5" />
@@ -1603,7 +1603,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="57_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="57_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist_icons.png" sourcerect="605,741,64,64" origin="0.5,0.5" />
@@ -1656,7 +1656,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="7.62_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="7.62_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist_icons.png" sourcerect="478,738,64,64" origin="0.5,0.5" />
@@ -1709,7 +1709,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="smg45_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="smg45_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist_icons.png" sourcerect="545,828,64,64" origin="0.5,0.5" />
@@ -1762,7 +1762,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="smg9mm_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="smg9mm_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist_icons.png" sourcerect="410,843,64,64" origin="0.5,0.5" />
@@ -1815,7 +1815,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="pistol45_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="pistol45_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist.png" sourcerect="172,1055,64,64" origin="0.5,0.5" />
@@ -1867,7 +1867,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="pistol9mm_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="pistol9mm_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist.png" sourcerect="131,981,64,64" origin="0.5,0.5" />
@@ -1920,7 +1920,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="9x39_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="9x39_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist.png" sourcerect="422,421,64,64" origin="0.5,0.5" />
@@ -1974,7 +1974,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="5.45mm_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="5.45mm_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist.png" sourcerect="66,983,64,64" origin="0.5,0.5" />
@@ -2027,7 +2027,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="milfabricator" requiredtime="10" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="5.56_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="5.56_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="titanium" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/CO_spritelist.png" sourcerect="664,1045,64,64" origin="0.5,0.5" />
@@ -2188,7 +2188,7 @@
         <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="65" />
           <Affliction identifier="radslow" strength="20" />
@@ -2235,7 +2235,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="45" />
           <Affliction identifier="radslow" strength="10" />
@@ -2287,7 +2287,7 @@
         <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="70" />
           <Affliction identifier="radslow" strength="15" />
@@ -2315,7 +2315,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="9x39_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="9x39_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2367,7 +2367,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="7.62_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="7.62_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2420,7 +2420,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="38_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="38_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2472,7 +2472,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="smg9mm_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="smg9mm_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2526,7 +2526,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="smg45_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="smg45_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2578,7 +2578,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="5.45mm_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="5.45mm_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2631,7 +2631,7 @@
     </Price>
     <Fabricate suitablefabricators="milfabricator" requiredtime="20" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="5.56_magazine" mincondition="0.0" maxcondition="1" />
+      <RequiredItem identifier="5.56_magazine" mincondition="0.0" maxcondition="0.0" />
       <RequiredItem identifier="plastic" amount="2" />
     </Fabricate>
     <Deconstruct time="10">
@@ -2724,7 +2724,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="42" />
           <Affliction identifier="radslow" strength="20" />
@@ -2851,7 +2851,7 @@
         <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="65" />
           <Affliction identifier="radslow" strength="20" />
@@ -2952,7 +2952,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="60" />
           <Affliction identifier="radslow" strength="20" />
@@ -3073,7 +3073,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="60" />
           <Affliction identifier="radslow" strength="10" />
@@ -3133,7 +3133,7 @@
         <Affliction identifier="stun" strength="0.01" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="45" />
           <Affliction identifier="radslow" strength="20" />
@@ -3252,7 +3252,7 @@
         <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="50" />
           <Affliction identifier="radslow" strength="10" />
@@ -3367,7 +3367,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="55" />
           <Affliction identifier="radslow" strength="20" />
@@ -3483,7 +3483,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="50" />
           <Affliction identifier="radslow" strength="20" />
@@ -3543,7 +3543,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="15" />
@@ -3609,7 +3609,7 @@
         <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="10" />
@@ -3794,7 +3794,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="45" />
           <Affliction identifier="radslow" strength="20" />
@@ -3868,7 +3868,7 @@
         </Explosion>
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="40" />
           <Affliction identifier="radslow" strength="20" />
@@ -4267,7 +4267,7 @@
           <Affliction identifier="stun" strength="0.1" />
         </Attack>
         <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-          <Conditional HasStatusTag="rad" />
+          <Conditional HasStatusTag="rad_co" />
           <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
             <Affliction identifier="radiationsickness" strength="50" />
             <Affliction identifier="radslow" strength="20" />
@@ -4371,7 +4371,7 @@
         <Affliction identifier="stun" strength="0.03" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="70" />
           <Affliction identifier="radslow" strength="20" />
@@ -4435,7 +4435,7 @@
         <SpawnItem identifiers="acidemitter_sulp_bullet" spawnposition="This" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
-        <Conditional HasStatusTag="rad" />
+        <Conditional HasStatusTag="rad_co" />
         <Explosion range="10.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
           <Affliction identifier="radiationsickness" strength="85" />
           <Affliction identifier="radslow" strength="20" />

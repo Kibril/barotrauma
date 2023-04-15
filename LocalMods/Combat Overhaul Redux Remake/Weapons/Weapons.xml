@@ -2600,9 +2600,9 @@ light_fluorescent_L2
       <RequiredItem identifier="dooropeningtool" type="Equipped" />
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.5" setvalue="true" />
     </Holdable>
-    <Fabricator canbeselected="true" powerconsumption="475.0" msg="ItemMsgInteractSelect" fabricationspeed="1">
+    <Fabricator canbeselected="true" powerconsumption="675.0" msg="ItemMsgInteractSelect" fabricationspeed="0.05">
       <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
-      <sound file="%ModDir%/Sounds/milfab_loop.ogg" type="OnActive" range="1000.0" loop="true" />
+      <sound file="%ModDir%/Sounds/fabr.ogg" type="OnActive" range="400.0" loop="true" volume="10" dontmuffle="true" />
       <poweronsound file="Content/Items/PowerOnLight1.ogg" range="600" loop="false" />
       <StatusEffect type="InWater" target="This" condition="-0.25" />
       <StatusEffect type="OnContained" target="This" setvalue="true" canbeselected="false" />
@@ -2763,8 +2763,8 @@ light_fluorescent_L2
       <sprite name="Combat Diving Suit Left Shoe" texture="combat_DivingSuit3.png" limb="LeftFoot" sound="exostep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Combat Diving Suit Right Shoe" texture="combat_DivingSuit3.png" limb="RightFoot" sound="exostep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="false" PressureProtection="7500.0" SpeedMultiplier="0.3" PropulsionSpeedMultiplier="1.5" setvalue="true" disabledeltatime="true">
-        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
-        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+        <Sound file="%ModDir%/Sounds/exo_loop.ogg" range="100" volume="0.05" />
+        <Sound file="%ModDir%/Sounds/exo_loop.ogg" range="100" volume="0.05" />
       </StatusEffect>
       <StatusEffect type="OnContained" target="Contained" Condition="1.0">
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
@@ -3287,8 +3287,8 @@ light_fluorescent_L2
       <sprite name="Combat Diving Suit Left Shoe" texture="combat_DivingSuit2.png" limb="LeftFoot" sound="exostep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Combat Diving Suit Right Shoe" texture="combat_DivingSuit2.png" limb="RightFoot" sound="exostep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="false" PressureProtection="7500.0" SpeedMultiplier="0.2" PropulsionSpeedMultiplier="1.3" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
-        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
-        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+        <Sound file="%ModDir%/Sounds/exo_loop.ogg" range="100" volume="0.05" />
+        <Sound file="%ModDir%/Sounds/exo_loop.ogg" range="100" volume="0.05" />
       </StatusEffect>
       <StatusEffect type="OnContained" target="Contained" Condition="1.0">
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
@@ -3742,8 +3742,8 @@ light_fluorescent_L2
       <sprite name="Combat Diving Suit Left Shoe" texture="combat_DivingSuit.png" limb="LeftFoot" sound="exostep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Combat Diving Suit Right Shoe" texture="combat_DivingSuit.png" limb="RightFoot" sound="exostep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" PressureProtection="7500.0" SpeedMultiplier="0.2" PropulsionSpeedMultiplier="1" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
-        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
-        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+        <Sound file="%ModDir%/Sounds/exo_loop.ogg" range="100" volume="0.05" />
+        <Sound file="%ModDir%/Sounds/exo_loop.ogg" range="100" volume="0.05" />
       </StatusEffect>
       <StatusEffect type="OnContained" target="Contained" Condition="1.0">
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
