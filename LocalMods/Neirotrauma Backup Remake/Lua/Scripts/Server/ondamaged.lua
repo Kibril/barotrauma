@@ -55,27 +55,27 @@ NT.OnDamagedMethods.gunshotwound = function(character,strength,limbtype)
     -- torso specific
     if strength >= 1 and limbtype==LimbType.Torso then
         local hitOrgan = false
-        if strength >= 20 and HF.Chance(HF.Clamp(strength*0.02,0,0.3)*NTC.GetMultiplier(character,"anyfracturechance")*NT.Config.fractureChance) then
+        if strength >= 10 and HF.Chance(HF.Clamp(strength*0.02,0,0.3)*NTC.GetMultiplier(character,"anyfracturechance")*NT.Config.fractureChance) then
             NT.BreakLimb(character,limbtype)
             causeFullForeignBody = true
         end
-        if strength >= 15 and HasLungs(character) and HF.Chance(0.3*NTC.GetMultiplier(character,"pneumothoraxchance")*NT.Config.pneumothoraxChance) then
+        if strength >= 5 and HasLungs(character) and HF.Chance(0.3*NTC.GetMultiplier(character,"pneumothoraxchance")*NT.Config.pneumothoraxChance) then
             HF.AddAffliction(character,"pneumothorax",5)
             HF.AddAffliction(character,"lungdamage",strength/2) 
             HF.AddAffliction(character,"organdamage",strength/4)
             hitOrgan=true
         end
-        if strength >= 20 and HasHeart(character) and hitOrgan == false and HF.Chance(strength/50*NTC.GetMultiplier(character,"tamponadechance")*NT.Config.tamponadeChance) then
+        if strength >= 10 and HasHeart(character) and hitOrgan == false and HF.Chance(strength/50*NTC.GetMultiplier(character,"tamponadechance")*NT.Config.tamponadeChance) then
             HF.AddAffliction(character,"tamponade",5) 
             HF.AddAffliction(character,"heartdamage",strength/2)
             HF.AddAffliction(character,"organdamage",strength/4)
             hitOrgan=true
         end
-        if strength >= 25 then
+        if strength >= 15 then
             HF.AddAffliction(character,"internalbleeding",strength*HF.RandomRange(0.3,0.6)) end
 
         -- liver and kidney damage
-        if hitOrgan==false and strength >= 10 and HF.Chance(0.5) then
+        if hitOrgan==false and HF.Chance(0.5) then
             HF.AddAfflictionLimb(character,"organdamage",limbtype,strength/4)
             if HF.Chance(0.5) then
                 HF.AddAffliction(character,"liverdamage",strength/2)
@@ -96,7 +96,7 @@ NT.OnDamagedMethods.gunshotwound = function(character,strength,limbtype)
     end
 
     -- extremities
-    if strength >= 10 and HF.LimbIsExtremity(limbtype) then
+    if strength >= 5 and HF.LimbIsExtremity(limbtype) then
         if NT.LimbIsBroken(character,limbtype) and not NT.LimbIsAmputated(character,limbtype) and HF.Chance(strength/60*NTC.GetMultiplier(character,"traumamputatechance")) then
             NT.TraumamputateLimb(character,limbtype) end
         if HF.Chance(strength/60*NTC.GetMultiplier(character,"anyfracturechance")*NT.Config.fractureChance) then
