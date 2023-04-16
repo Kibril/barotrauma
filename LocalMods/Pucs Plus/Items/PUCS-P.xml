@@ -14,10 +14,8 @@
     <Deconstruct time="60">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="titaniumaluminiumalloy" />
-      <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="fpgacircuit" />
       <Item identifier="fpgacircuit" />
-      <Item identifier="physicorium" />
       <Item identifier="physicorium" />
       <Item identifier="pucs" />
     </Deconstruct>
@@ -25,15 +23,14 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="1" displayname="embi.Conversion">
       <RequiredItem identifier="pucsmech" />
     </Fabricate>
-    <Fabricate suitablefabricators="fabricator" requiredtime="1" displayname="embi.Conversion">
-      <RequiredItem identifier="pucsTransparent" />
-    </Fabricate>
-    <Fabricate suitablefabricators="fabricator" requiredtime="120">
-      <RequiredSkill identifier="electrical" level="70" />
-      <RequiredSkill identifier="mechanical" level="70" />
-      <RequiredItem identifier="titaniumaluminiumalloy" amount="4" />
-      <RequiredItem identifier="fpgacircuit" amount="3" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="70">
+      <RequiredSkill identifier="electrical" level="90" />
+      <RequiredSkill identifier="mechanical" level="90" />
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="scp_durasteel" amount="2" />
+      <RequiredItem identifier="aliencircuitry" amount="4" />
       <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="2" />
       <Item tag="alienpowercell" />
       <RequiredItem identifier="pucs" />
     </Fabricate>
@@ -283,12 +280,13 @@
         <Conditional hastag="eq InterfaceOff" />
       </StatusEffect>
       <!-- 减伤 -->
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonar" damagemultiplier="0.8" damagesound="LimbArmor" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonarbeacon" damagemultiplier="0.85" damagesound="LimbArmor" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acoustictrauma" damagemultiplier="0.30" damagesound="LimbArmor" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="vibrationdamage" damagemultiplier="0.75" damagesound="LimbArmor" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations" damagemultiplier="0.45" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.2" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonar" damagemultiplier="0.7" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonarbeacon" damagemultiplier="0.75" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acoustictrauma" damagemultiplier="0.15" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="vibrationdamage" damagemultiplier="0.65" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations" damagemultiplier="0.28" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.5" probabilitymultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bloodloss" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn,acidburn" damagemultiplier="0" damagesound="" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,lethalradiation" damagemultiplier="0" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" damagemultiplier="0.0" damagesound="LimbArmor" />
