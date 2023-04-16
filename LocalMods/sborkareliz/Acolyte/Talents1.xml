@@ -20,8 +20,8 @@
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
-            <ReduceAffliction type="damage" strength="0.7" />
-            <ReduceAffliction type="burn" strength="0.7" />
+            <ReduceAffliction type="damage" strength="1" />
+            <ReduceAffliction type="burn" strength="1" />
             <ReduceAffliction type="organdamage" strength="0.3" />
             <ReduceAffliction type="bonedamage" strength="0.3" />
             <ReduceAffliction type="heartdamage" strength="0.2" />
@@ -45,7 +45,7 @@
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
               <Affliction identifier="apotheosis1" strength="1.0" />
-              <Affliction identifier="seizure" amount="60" />
+              <Affliction identifier="seizure" amount="30" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -55,15 +55,15 @@
     <AbilityGroupInterval>
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
-        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
         <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
-            <ReduceAffliction type="damage" strength="0.7" />
-            <ReduceAffliction type="burn" strength="0.7" />
+            <ReduceAffliction type="damage" strength="1" />
+            <ReduceAffliction type="burn" strength="1" />
             <ReduceAffliction type="organdamage" strength="0.3" />
             <ReduceAffliction type="bonedamage" strength="0.3" />
             <ReduceAffliction type="heartdamage" strength="0.2" />
@@ -79,7 +79,7 @@
       <Conditions>
         <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
         <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
-        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
         <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
       </Conditions>
       <Abilities>
@@ -87,7 +87,7 @@
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
               <Affliction identifier="apotheosis1" strength="1.0" />
-              <Affliction identifier="seizure" amount="60" />
+              <Affliction identifier="seizure" amount="30" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -153,9 +153,9 @@
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
-              <ReduceAffliction type="internalbleeding" strength="0.6" />
-              <ReduceAffliction type="bleeding" strength="0.6" />
-              <ReduceAffliction type="bloodloss" strength="0.3" />
+              <ReduceAffliction type="internalbleeding" strength="0.9" />
+              <ReduceAffliction type="bleeding" strength="0.9" />
+              <ReduceAffliction type="bloodloss" strength="0.4" />
               <ReduceAffliction type="ll_arterialcut" strength="1" />
               <ReduceAffliction type="rl_arterialcut" strength="1" />
               <ReduceAffliction type="la_arterialcut" strength="1" />
@@ -215,16 +215,16 @@
     <AbilityGroupInterval>
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
-        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
         <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
-              <ReduceAffliction type="internalbleeding" strength="0.6" />
-              <ReduceAffliction type="bleeding" strength="0.6" />
-              <ReduceAffliction type="bloodloss" strength="0.2" />
+              <ReduceAffliction type="internalbleeding" strength="0.9" />
+              <ReduceAffliction type="bleeding" strength="0.9" />
+              <ReduceAffliction type="bloodloss" strength="0.4" />
               <ReduceAffliction type="ll_arterialcut" strength="1" />
               <ReduceAffliction type="rl_arterialcut" strength="1" />
               <ReduceAffliction type="la_arterialcut" strength="1" />
@@ -242,7 +242,7 @@
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
         <AbilityConditionHasAffliction afflictionidentifier="cardiacarrest" />
-        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
         <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
       </Conditions>
       <Abilities>
@@ -265,7 +265,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
-        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.4" />
@@ -274,7 +274,7 @@
     <AbilityGroupInterval>
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
-        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyStat stattype="MedicalItemEffectivenessMultiplier" value="-0.30" />
