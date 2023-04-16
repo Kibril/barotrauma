@@ -33,13 +33,13 @@
     <Wearable slots="Bag" msg="ItemMsgEquipSelect">
       <sprite name="rebreather" texture="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.png" canbehiddenbyotherwearables="false" limb="Head" depth="0.9" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" hidewearablesoftype="moustache,beard" hideotherwearables="false" sourcerect="222,5,77,85" origin="0.4,0.51" />
       <sprite name="Backpack" texture="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.png" canbehiddenbyotherwearables="false" limb="Torso" inheritlimbdepth="true" hidelimb="false" inheritorigin="false" inherittexturescale="true" sourcerect="0,0,61,137" origin="1.1,0.5" />
-      <StatusEffect type="OnWearing" target="Contained" targetslot="0" Condition="0.4">
+      <StatusEffect type="OnWearing" target="Contained" targetslot="0" Condition="0.2">
         <RequiredItem items="oxygentank" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" targetslot="1" Condition="0.4">
+      <StatusEffect type="OnWearing" target="Contained" targetslot="1" Condition="0.2">
         <RequiredItem items="oxygentank" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" targetslot="2" Condition="0.4">
+      <StatusEffect type="OnWearing" target="Contained" targetslot="2" Condition="0.2">
         <RequiredItem items="oxygentank" type="Contained" />
       </StatusEffect>
       <StatusEffect type="OnWearing" target="Character" OxygenAvailable="1000.0" comparison="Or" />
