@@ -3,7 +3,7 @@
 <Talents>
   <Override>
     <Talent identifier="Blessed">
-    <Description tag="talentdescription.blessed">
+    <Description tag="talentdescription.blessed1">
       <Replace tag="[health]" value="10" color="gui.green" />
       <Replace tag="[maximumhealth]" value="stattypenames.maximumhealthmultiplier" color="gui.orange" />
       <Replace tag="[amount]" value="5" color="gui.green" />
@@ -95,9 +95,8 @@
     </AbilityGroupInterval>
   </Talent>
   <Talent identifier="Willinghost">
-    <Description tag="talentdescription.slowhusk" />
+    <Description tag="talentdescription.willinghost1" />
     <Description linebreak="true" />
-    <Description tag="talentdescription.willinghost">
       <Replace tag="[amount]" value="50" color="gui.green" />
     </Description>
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,6" sheetelementsize="128,128" />
@@ -134,7 +133,7 @@
     </AbilityGroupInterval>
   </Talent>
   <Talent identifier="xBloodfeast">
-    <Description tag="talentdescription.bloodfeast">
+    <Description tag="talentdescription.bloodfeast1">
       <Replace tag="[bleed]" value="40" color="gui.green" />
       <Replace tag="[bleeding]" value="afflictionname.bleeding" color="gui.orange" />
     </Description>
