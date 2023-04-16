@@ -180,5 +180,5 @@
     <stattypenames.physicaldamage>Физический урон</stattypenames.physicaldamage>
     <stattypenames.flow>Течение</stattypenames.flow>
     <stattypenames.rangedspreadreduction>Сокращение распространения</stattypenames.rangedspreadreduction>
-    <Override/>
+  <Override/>
 </infotexts>
