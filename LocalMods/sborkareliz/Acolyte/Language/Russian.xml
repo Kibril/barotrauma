@@ -94,7 +94,7 @@
   <talentdescription.bettertogether>Значительно замедляет заражение паразитами и при заражении паразитами даёт [skillincrease] ко всем навыкам.</talentdescription.bettertogether>
   <talentdescription.supplication>Пока вы заражены паразитами, союзники рядом с вами страдают от понижения на [amount] всех навыков и [amount]% [speedreduction].</talentdescription.supplication>
   <talentdescription.supplicationbuff>Значительно замедляет скорость заражения паразитами и при заражении паразитами вы получаете [skillincrease] ко всем навыкам.</talentdescription.supplicationbuff>
-  <talentdescription.supplicationitems>Каждый раз, когда вы завершаете миссию без смерти члена экипажа, вы получаете следующие предметы в качестве дополнительной награды:</talentdescription.supplicationitems>
+  <talentdescription.supplicationitems>Каждый раз, когда вы завершаете миссию без смерти члена экипажа, вы получаете следующие предметы в качестве дополнительной награды.</talentdescription.supplicationitems>
   <talentdescription.geneticenhancement>Пока вы заражены паразитами, вы получаете [spreadreductionamount]% [spreadreduction], [meleeatkspeed]% [matkspeed] и [movementspeed]% [speedboost].</talentdescription.geneticenhancement>
   <talentdescription.waterbornepathogen>Пока вы заражены паразитами, ваша скорость в воде увеличивается на [swimmingboost]%.</talentdescription.waterbornepathogen>
   <talentdescription.waterbornepathogenwaterbuffs>Пока вы заражены паразитами и находитесь в воде, вы получаете дополнительно [amount]% устойчивости к [affliction].</talentdescription.waterbornepathogenwaterbuffs>
