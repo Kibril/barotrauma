@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Sborka New" path="Mods/sborkareliz/filelist.xml" corepackage="false" gameversion="1.0.8.0">
   <!--< Overrides />-->
-  <Item file="%ModDir%/Override/CombatOverhaul/MVest.xml" />
-  <Item file="%ModDir%/Override/CombatOverhaul/ammunition.xml" />
-  <Item file="%ModDir%/Override/CombatOverhaul/diving.xml" />
+  <Item file="%ModDir%/Override/Vanila/diving.xml" />
 
   <Sounds file="%ModDir%/Sounds/sounds.xml" />
 
