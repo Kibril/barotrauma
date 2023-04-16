@@ -13,4 +13,9 @@
 
   <!--< Diver />-->
   <Talents file="%ModDir%/Diver/TalentsDiver.xml" />
+
+  <!--< headset />-->
+  <Item file="%ModDir%/Headsets/Headsets.xml" />
+  <Other file="%ModDir%/advancedheadsetspreview.png" />
+  <Other file="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" />
 </contentpackage>
