@@ -36,4 +36,8 @@
     </Effect>
     <Icon texture="%ModDir%/Icons/CustomIcons.png" sourcerect="384,510,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
+  <Affliction identifier="bleedreaction" type="debuff" limbspecific="false" maxstrength="100" affectmachines="false">
+    <Effect minstrength="0" maxstrength="100" strengthchange="-1" resistancefor="bloodloss" minresistance="0" maxresistance="-1" />
+    <icon texture="Content/UI/CommandUIBackground.png" sourcerect="640,768,128,128" color="84,171,90,255" origin="0,0" />
+  </Affliction>
 </Afflictions>
