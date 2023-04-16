@@ -10,7 +10,7 @@
   <Item file="%ModDir%/Medipack/Medipack.xml" />
   <Item file="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.xml" />
   <Item file="%ModDir%/Techno-Backpack/Techno-Backpack.xml" />
-  <Item file="%ModDir%/Shield Backpack/Shield Backpack.xml" />
+  <!--<Item file="%ModDir%/Shield Backpack/Shield Backpack.xml" />-->
   <Afflictions file="%ModDir%/Afflictions.xml" />
   <Text file="%ModDir%/Localization/Russian.xml" />
   <Text file="%ModDir%/Localization/English.xml" />
