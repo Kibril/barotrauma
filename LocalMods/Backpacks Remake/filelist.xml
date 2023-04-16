@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Backpacks Remake" modversion="2.2a" corepackage="False" gameversion="0.20.16.1">
-  <!--<Item file="%ModDir%/Backpack/Backpack.xml" />-->
-  <!--<Item file="%ModDir%/Heavy Backpack/Heavy Backpack.xml" />-->
+  <Item file="%ModDir%/Backpack/Backpack.xml" />
+  <Item file="%ModDir%/Heavy Backpack/Heavy Backpack.xml" />
   <Item file="%ModDir%/Power-Backpack/Power-Backpack.xml" />
   <Item file="%ModDir%/Medical Backpack/Medical Backpack.xml" />
   <Item file="%ModDir%/Duffel Bag/Duffel Bag.xml" />
