@@ -10,10 +10,6 @@
   <Afflictions file="%ModDir%/Acolyte/Acolyteafflictions.xml" />
   <Text file="%ModDir%/Acolyte/Language/English.xml" />
   <Text file="%ModDir%/Acolyte/Language/Russian.xml" />
-  <Text file="%ModDir%/Acolyte/Language/Turkish.xml" />
-  <Text file="%ModDir%/Acolyte/Language/Polish.xml" />
-  <Text file="%ModDir%/Acolyte/Language/CastilianSpanish.xml" />
-  <Text file="%ModDir%/Acolyte/Language/SimplifiedChinese.xml" />
 
   <!--< Diver />-->
   <Talents file="%ModDir%/Diver/TalentsDiver.xml" />
