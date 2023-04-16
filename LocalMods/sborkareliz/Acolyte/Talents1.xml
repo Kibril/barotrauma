@@ -95,8 +95,9 @@
     </AbilityGroupInterval>
   </Talent>
   <Talent identifier="Willinghost">
-    <Description tag="talentdescription.willinghost1" />
+    <Description tag="talentdescription.slowhusk" />
     <Description linebreak="true" />
+    <Description tag="talentdescription.willinghost1">
       <Replace tag="[amount]" value="50" color="gui.green" />
     </Description>
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,6" sheetelementsize="128,128" />
