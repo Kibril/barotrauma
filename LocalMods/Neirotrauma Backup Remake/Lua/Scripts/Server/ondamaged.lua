@@ -55,13 +55,6 @@ NT.OnDamagedMethods.gunshotwound = function(character,strength,limbtype)
     -- torso specific
     if strength >= 1 and limbtype==LimbType.Torso then
         local hitOrgan = false
-        if strength <= 5 then
-            HF.AddAffliction(character,"blunttrauma",strength)
-            HF.SetAffliction(character,"gunshotwound",0)
-        else 
-            HF.AddAffliction(character,"blunttrauma",5)
-            HF.AddAffliction(character,"gunshotwound",-5)
-        end
         if strength >= 10 and HF.Chance(HF.Clamp(strength*0.02,0,0.3)*NTC.GetMultiplier(character,"anyfracturechance")*NT.Config.fractureChance) then
             NT.BreakLimb(character,limbtype)
             causeFullForeignBody = true
