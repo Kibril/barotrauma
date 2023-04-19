@@ -29,7 +29,7 @@
       <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="du_p_alloy" amount="4" />
       <RequiredItem identifier="aliencircuitry" amount="4" />
-      <RequiredItem identifier="fulgurium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="3" />
       <Item tag="alienpowercell" />
       <RequiredItem identifier="pucs" />
     </Fabricate>
