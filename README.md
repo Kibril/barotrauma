@@ -1,4 +1,6 @@
-# Barotrauma
+# "Traumatized by pressure" is custom mods collection for Barotrauma
+
+Инструкция по установке.
 
 Шаг 1.
 Иметь баротравму.
