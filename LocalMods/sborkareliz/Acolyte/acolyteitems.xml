@@ -38,10 +38,9 @@
     <Projectile characterusable="false" launchimpulse="5" sticktocharacters="true" sticktoitems="true" sticktostructures="true" sticktodoors="false">
       <Attack structuredamage="15" targetforce="25" itemdamage="20" penetration="0.2">
         <Affliction identifier="lacerations" strength="25" />
-        <Affliction identifier="bleeding" strength="25" />
-        <Affliction identifier="stun" strength="0.5" />
+        <Affliction identifier="bleeding" strength="45" />
+        <Affliction identifier="stun" strength="2.5" />
         <Affliction identifier="huskinfection" strength="1" commonness="0.2" />
-        <Affliction identifier="bleedreaction" strength="10" />
       </Attack>
       <!--  smg rounds should not exist outside magazines  -->
       <StatusEffect type="OnNotContained" target="This" stackable="false" delay="20">
