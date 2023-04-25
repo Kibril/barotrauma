@@ -1991,7 +1991,7 @@ thats what the vomiting symptom is for -->
   </Override>
   <Override>
     <Affliction identifier="combatstimulant" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="100" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
-      <Effect minstrength="0" maxstrength="20" strengthchange="-1" resistancefor="stun" minresistance="0" maxresistance="0.45">
+      <Effect minstrength="0" maxstrength="10" strengthchange="-1" resistancefor="stun" minresistance="0" maxresistance="0.45">
         <StatusEffect target="Character">
           <ReduceAffliction type="damage" strength="1.0" />
           <ReduceAffliction type="burn" strength="1.0" />
@@ -1999,10 +1999,9 @@ thats what the vomiting symptom is for -->
           <ReduceAffliction identifier="bleeding" strength="1.0" />
           <ReduceAffliction identifier="internalbleeding" strength="1.0" />
           <ReduceAffliction identifier="chemwithdrawal" strength="1.0" />
-          <ReduceAffliction identifier="hypoxemia" amount="2.0" />
         </StatusEffect>
       </Effect>
-      <Effect minstrength="20" maxstrength="40" strengthchange="-1" resistancefor="stun" minresistance="0.45" maxresistance="0.5">
+      <Effect minstrength="10" maxstrength="100" strengthchange="-1" resistancefor="stun" minresistance="0.45" maxresistance="0.5">
         <StatusEffect target="Character">
           <ReduceAffliction type="damage" strength="2.0" />
           <ReduceAffliction type="burn" strength="2.0" />
@@ -2010,23 +2009,6 @@ thats what the vomiting symptom is for -->
           <ReduceAffliction identifier="bleeding" strength="2.0" />
           <ReduceAffliction identifier="internalbleeding" strength="2.0" />
           <ReduceAffliction identifier="chemwithdrawal" strength="2.0" />
-          <ReduceAffliction identifier="hypoxemia" amount="4.0" />
-          <Affliction identifier="acidosis" amount="0.1" />
-          <Affliction identifier="hyperventilation" amount="1.0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="40" maxstrength="100" strengthchange="-1">
-        <StatusEffect target="Character">
-          <ReduceAffliction type="damage" strength="4.0" />
-          <ReduceAffliction type="burn" strength="4.0" />
-          <ReduceAffliction identifier="bloodloss" strength="4.0" />
-          <ReduceAffliction identifier="bleeding" strength="4.0" />
-          <ReduceAffliction identifier="internalbleeding" strength="4.0" />
-          <ReduceAffliction identifier="chemwithdrawal" strength="2.0" />
-          <ReduceAffliction identifier="hypoxemia" amount="8.0" />
-          <Affliction identifier="acidosis" amount="0.1" />
-          <Affliction identifier="hyperventilation" amount="2.0" />
-          <Affliction identifier="stun" amount="2.0" />
         </StatusEffect>
       </Effect>
       <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
