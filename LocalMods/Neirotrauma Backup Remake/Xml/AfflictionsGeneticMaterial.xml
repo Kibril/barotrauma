@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Afflictions>
+    <!-- positive effects -->
+    <Affliction name="Heal Damage" identifier="healdamage" type="geneticmaterialbuff" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+      <Effect minstrength="0" maxstrength="20">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.02" />
+          <ReduceAffliction type="bloodloss" amount="0.00125" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="20" maxstrength="40">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.04" />
+          <ReduceAffliction type="bloodloss" amount="0.0044" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="40" maxstrength="60">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.055" />
+          <ReduceAffliction type="bloodloss" amount="0.0065" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="60" maxstrength="80">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.070" />
+          <ReduceAffliction type="bloodloss" amount="0.008" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="80" maxstrength="100">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.085" />
+          <ReduceAffliction type="bloodloss" amount="0.009" />
+        </StatusEffect>
+      </Effect>
+      <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="163,73,764,255" origin="0,0" />
+    </Affliction>
+    <Affliction name="Quickly Coagulating Blood" identifier="chunkyblood" type="geneticmaterialbuff" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+      <Effect minstrength="0" maxstrength="20">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="bleeding" amount="0.0125" />
+          <ReduceAffliction type="internalbleeding" amount="0.0125" />
+          <ReduceAffliction type="ll_arterialcut" strength="0.125" />
+          <ReduceAffliction type="rl_arterialcut" strength="0.125" />
+          <ReduceAffliction type="la_arterialcut" strength="0.125" />
+          <ReduceAffliction type="ra_arterialcut" strength="0.125" />
+          <ReduceAffliction type="t_arterialcut" strength="0.125" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="20" maxstrength="30">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="bleeding" amount="0.022" />
+          <ReduceAffliction type="internalbleeding" amount="0.022" />
+          <ReduceAffliction type="ll_arterialcut" strength="0.22" />
+          <ReduceAffliction type="rl_arterialcut" strength="0.22" />
+          <ReduceAffliction type="la_arterialcut" strength="0.22" />
+          <ReduceAffliction type="ra_arterialcut" strength="0.22" />
+          <ReduceAffliction type="t_arterialcut" strength="0.22" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="30" maxstrength="40">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="bleeding" amount="0.0315" />
+          <ReduceAffliction type="internalbleeding" amount="0.0315" />
+          <ReduceAffliction type="ll_arterialcut" strength="0.315" />
+          <ReduceAffliction type="rl_arterialcut" strength="0.315" />
+          <ReduceAffliction type="la_arterialcut" strength="0.315" />
+          <ReduceAffliction type="ra_arterialcut" strength="0.315" />
+          <ReduceAffliction type="t_arterialcut" strength="0.315" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="40" maxstrength="60">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="bleeding" amount="0.042" />
+          <ReduceAffliction type="internalbleeding" amount="0.042" />
+          <ReduceAffliction type="ll_arterialcut" strength="0.42" />
+          <ReduceAffliction type="rl_arterialcut" strength="0.42" />
+          <ReduceAffliction type="la_arterialcut" strength="0.42" />
+          <ReduceAffliction type="ra_arterialcut" strength="0.42" />
+          <ReduceAffliction type="t_arterialcut" strength="0.42" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="60" maxstrength="80">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="bleeding" amount="0.0525" />
+          <ReduceAffliction type="internalbleeding" amount="0.0525" />
+          <ReduceAffliction type="ll_arterialcut" strength="0.525" />
+          <ReduceAffliction type="rl_arterialcut" strength="0.525" />
+          <ReduceAffliction type="la_arterialcut" strength="0.525" />
+          <ReduceAffliction type="ra_arterialcut" strength="0.525" />
+          <ReduceAffliction type="t_arterialcut" strength="0.525" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="80" maxstrength="100">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="bleeding" amount="0.065" />
+          <ReduceAffliction type="internalbleeding" amount="0.065" />
+          <ReduceAffliction type="ll_arterialcut" strength="0.65" />
+          <ReduceAffliction type="rl_arterialcut" strength="0.65" />
+          <ReduceAffliction type="la_arterialcut" strength="0.65" />
+          <ReduceAffliction type="ra_arterialcut" strength="0.65" />
+          <ReduceAffliction type="t_arterialcut" strength="0.65" />
+        </StatusEffect>
+      </Effect>
+      <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    </Affliction>
+  </Afflictions>
+</Override>
