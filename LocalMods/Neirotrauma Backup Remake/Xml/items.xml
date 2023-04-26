@@ -4084,6 +4084,7 @@
       <SuitableTreatment identifier="bloodloss" suitability="20" />
       <SuitableTreatment type="damage" suitability="10" />
       <SuitableTreatment identifier="oxygenlow" suitability="20" />
+      <SuitableTreatment identifier="gangrene" suitability="10" />
       <SuitableTreatment identifier="brainhemorrhage" suitability="20" />
       <SuitableTreatment identifier="mannausage" suitability="-90" />
       <SuitableTreatment identifier="mannaoverdose" suitability="-100" />
@@ -4125,6 +4126,7 @@
           <Affliction identifier="oxygenlow" amount="-0.008" />
           <Affliction identifier="bloodloss" amount="-0.008" />
           <ReduceAffliction type="damage" amount="0.004" />
+          <ReduceAffliction type="gangrene" amount="0.004" />
         </StatusEffect>
         <StatusEffect tags="medical" type="OnFailure" target="This, Limb" disabledeltatime="true" interval="0.1" SpeedMultiplier="1.2" setvalue="true" duration="36">
           <Conditional mannainjection="lteq 0" />
@@ -4135,6 +4137,7 @@
           <Affliction identifier="oxygenlow" amount="-0.006" />
           <Affliction identifier="bloodloss" amount="-0.006" />
           <ReduceAffliction type="damage" amount="0.002" />
+          <ReduceAffliction type="gangrene" amount="0.002" />
         </StatusEffect>
         <!-- If Manna is already active on the patient. -->
         <StatusEffect tags="medical" type="OnSuccess" target="This, Limb" disabledeltatime="true" interval="0.1" SpeedMultiplier="1.3" setvalue="true" duration="36">
@@ -4146,6 +4149,7 @@
           <Affliction identifier="oxygenlow" amount="-0.004" />
           <Affliction identifier="bloodloss" amount="-0.004" />
           <ReduceAffliction type="damage" amount="0.0015" />
+          <ReduceAffliction type="gangrene" amount="0.002" />
         </StatusEffect>
         <StatusEffect tags="medical" type="OnFailure" target="This, Limb" disabledeltatime="true" interval="0.1" SpeedMultiplier="1.2" setvalue="true" duration="36">
           <Conditional mannainjection="gt 0" />
@@ -4156,6 +4160,7 @@
           <Affliction identifier="oxygenlow" amount="-0.002" />
           <Affliction identifier="bloodloss" amount="-0.002" />
           <ReduceAffliction type="damage" amount="0.001" />
+          <ReduceAffliction type="gangrene" amount="0.001" />
         </StatusEffect>
         <!-- Remove the item when fully used -->
         <StatusEffect type="OnBroken" target="This">
