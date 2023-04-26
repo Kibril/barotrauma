@@ -8,6 +8,7 @@
   <!--< Acolyte />-->
   <Talents file="%ModDir%/Acolyte/Talents1.xml" />
   <Afflictions file="%ModDir%/Acolyte/Acolyteafflictions.xml" />
+  <Item file="%ModDir%/Acolyte/acolyteitems.xml" />
   <Text file="%ModDir%/Acolyte/Language/English.xml" />
   <Text file="%ModDir%/Acolyte/Language/Russian.xml" />
 
