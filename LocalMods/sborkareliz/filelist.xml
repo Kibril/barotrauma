@@ -2,7 +2,7 @@
 <contentpackage name="Sborka New" path="Mods/sborkareliz/filelist.xml" corepackage="false" gameversion="1.0.8.0">
   <!--< Overrides />-->
   <Item file="%ModDir%/Override/Vanila/diving.xml" />
-
+  <UIStyle file="%ModDir%/style.xml" />
   <Sounds file="%ModDir%/Sounds/sounds.xml" />
 
   <!--< Acolyte />-->
